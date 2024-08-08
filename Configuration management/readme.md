@@ -310,7 +310,10 @@ define service {
   check_command                  check_ntp
   check_interval                 10
 }
-momo@master:/etc/ansible$ ssh momo@192.168.17.143 "cat /usr/local/nagios/etc/servers/node1.cfg"
+```
+
+#### momo@master:/etc/ansible$ ssh momo@192.168.17.143 "cat /usr/local/nagios/etc/servers/node1.cfg"
+```
 define host {
   host_name                      node1
   address                        192.168.17.142
