@@ -1,8 +1,8 @@
 ## Helm
 #### Elasticsearch helm template 
-![Helm deployments](Helm-Metrics-Database/Helm.png)
+![Helm Deployments](https://github.com/jahanmomo/DevOps-Assessment/blob/master/Helm-Metrics-Database/Helm.png)
 
-
+---
 ## Metrics:
 
 #### Explaining how Prometheus work.
@@ -12,7 +12,7 @@ database, it allows querying and visualization through its query language called
 #### What is the Prometheus query you can use in Granfana to properly show usage trend of an application metric that is a counter?
 - In Granfana to show the usage trend of a counter metric, I can use **rate()** function, ex: rate(my_counter_metric[5m])
 
-
+---
 ## Database:
 
 ### Cassandra
