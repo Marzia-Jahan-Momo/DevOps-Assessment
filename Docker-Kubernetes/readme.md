@@ -75,10 +75,12 @@ spec:
 ```
 ```
 kubectl apply -f nginx-pod.yaml
+```
 
-To check the reason for a pod restart within a namespace we should use the kubectl describe command.
-
+##### To check the reason for a pod restart within a namespace we should use the kubectl describe command.
+```
 kubectl describe pod nginx-deployment-5ccdc5f64c-46xhr -n production
+
 kubectl logs nginx-deployment-5ccdc5f64c-46xhr -n production
 ```
 
