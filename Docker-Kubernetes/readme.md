@@ -31,7 +31,7 @@ Explanation:
 Volumes: nginx_logs ensures that the logs persist between container restarts.
 Networks: The nginx_network network is created with the specified subnet 172.20.8.0/24.
 ``` 
-![Namespace & services](Docker-Kubernetes/Kubernetes-production.png)
+![Namespace & services]([Docker-Kubernetes/Kubernetes-production.png](https://github.com/jahanmomo/DevOps-Assessment/blob/master/Docker-Kubernetes/Kubernetes-production.png))
 
 ### Kubernetes command to identify the reason for a pod restart under namespace "production".
 #### sudo vim nginx-pod.yaml
