@@ -31,7 +31,8 @@ Explanation:
 Volumes: nginx_logs ensures that the logs persist between container restarts.
 Networks: The nginx_network network is created with the specified subnet 172.20.8.0/24.
 ``` 
-![Namespace & services]([Docker-Kubernetes/Kubernetes-production.png](https://github.com/jahanmomo/DevOps-Assessment/blob/master/Docker-Kubernetes/Kubernetes-production.png))
+![Kubernetes Production](https://github.com/jahanmomo/DevOps-Assessment/blob/master/Docker-Kubernetes/Kubernetes-production.png)
+
 
 ### Kubernetes command to identify the reason for a pod restart under namespace "production".
 #### sudo vim nginx-pod.yaml
@@ -81,7 +82,7 @@ kubectl describe pod nginx-deployment-5ccdc5f64c-46xhr -n production
 kubectl logs nginx-deployment-5ccdc5f64c-46xhr -n production
 ```
 
-
+---
 ### Java-app keep restarting at random. From Kubernetes configuration perspective, the possible reasons for the pod restarts are:
 
 - Memory Limits: Pod may be exceeding its memory limt of 1500Mi that may cause OutOfMemoryError 
