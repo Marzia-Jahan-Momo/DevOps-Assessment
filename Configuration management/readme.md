@@ -49,7 +49,7 @@ node1 | SUCCESS => {
     "changed": false
 }
 ```
-
+---
 ### Configuring a cron job that runs logrotate on all machines every 10 minutes between 2h - 4h.
 
 
@@ -119,9 +119,7 @@ PLAY RECAP *********************************************************************
 
 ```
 
-
-
-
+---
 ### Deploying ntpd package to the following 3 servers
 
 
