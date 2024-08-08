@@ -186,7 +186,7 @@ PLAY RECAP *********************************************************************
 
 ```
 
-# Check NTP service status
+### Checking NTP service status
 
 #### momo@master:/etc/ansible$ ansible all -m shell -a "systemctl status ntp"
 ```
