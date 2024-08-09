@@ -312,18 +312,18 @@ define service {
 }
 ```
 
-#### momo@master:/etc/ansible$ ssh momo@192.168.17.143 "cat /usr/local/nagios/etc/servers/node1.cfg"
+#### momo@master:/etc/ansible$ ssh momo@192.168.17.143 "cat /usr/local/nagios/etc/servers/node2.cfg"
 ```
 define host {
-  host_name                      node1
-  address                        192.168.17.142
+  host_name                      node2
+  address                        192.168.17.143
   check_command                  check-ping
   active_checks_enabled          1
   passive_checks_enabled         1
 }
 define service {
   service_description            ntp_process
-  host_name                      node1
+  host_name                      node2
   check_command                  check_ntp
   check_interval                 10
 }
